@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BESAFE 2027 - Beyond Physical Safety in Intelligent Robots</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="besafe-style.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══════════════════════════════════ -->
+<header>
+  <div class="logo"><span>BESAFE</span> 2027</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lab">The Lab</a>
+    <a href="#outcomes">Outcomes</a>
+    <a href="#topics">Topics</a>
+    <a href="#submission">Submit</a>
+    <a href="#program">Program</a>
+    <a href="#organisers">Organisers</a>
+  </nav>
+</header>
+
+<!-- ══ HERO ════════════════════════════════════ -->
+<section class="hero" id="home" style="margin-top:0; padding-top:0;">
+  <div class="hero-left">
+    <div>
+      <div class="hero-tag-row">
+        <div class="hero-tag">
+          <span>●</span> Workshop @ HRI 2027
+        </div>
+        <a href="https://humanrobotinteraction.org/2027/" target="_blank" class="hero-roman-link">
+          <img src="logo-header.png" alt="ACM/IEEE hri 2027" class="hero-roman-logo">
+        </a>
+      </div>
+      <p class="hero-edition">2st Edition</p>
+      <h1 class="hero-title display">
+        <em>Besafe -</em> Beyond<br>Physical
+        <em>Safety</em>
+         in Intelligent Robots
+      </h1>
+      <p class="hero-sub">
+        A hands-on workshop exploring how we can move from concerns about
+        psychological and social safety in HRI to the evidence needed to
+        understand, evaluate, and challenge them.
+      </p>
+      <div class="cta-row">
+        <a href="#submission" class="btn btn-primary">Submit a Paper</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div class="hero-meta-row">
+        <div class="hero-meta-item">
+          <div class="label">Conference</div>
+          <div class="value">HRI 2027</div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="label">Date</div>
+          <div class="value">TBD<br></div>
+        </div>
+        <div class="hero-meta-item">
+          <div class="label">Venue</div>
+          <div class="value">Silicon Valley, Santa Clara, CA, USA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="hero-right">
+  <img
+    src="3.jpg"
+    alt="Human interacting with a robot"
+  >
+</div>
+</section>
+
+<!-- ══ ABOUT ════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">About the Workshop</h2>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-aside">
+        <p class="about-tagline">
+          A robot can avoid a collision.<br>
+          But does that make it <em>safe?</em>
+        </p>
+
+        <p style="font-size:0.85rem; color:var(--muted); line-height:1.6;">
+          <strong>BESAFE 2027</strong><br>
+          Second Edition<br>
+          HRI 2027 · Half-day Workshop
+        </p>
+      </div>
+
+      <div>
+        <div class="about-body">
+
+          <p>
+            Robots are moving beyond controlled environments and into the
+            spaces where we live, work, receive care, and interact with others.
+            Avoiding physical harm is essential — but it is only part of what
+            makes an interaction safe.
+          </p>
+
+          <p>
+            A robot may never collide with anyone and still block someone's
+            path. It may continue after a person says no, disclose information
+            they expected to remain private, or adapt its behavior in ways
+            people cannot understand, predict, or correct.
+          </p>
+
+         <p>
+          <strong>BESAFE returns for its second edition</strong>, building on the
+          <a href="https://besafe-workshop.github.io/roman2026/"
+            target="_blank"
+            class="text-link">first BESAFE workshop at RO-MAN 2026</a>,
+          to ask a harder question: <em>what evidence do we actually need before we
+          can make claims about the psychological and social safety of a robot?</em>
+        </p>
+
+          <p>
+            At HRI 2027, BESAFE becomes a hands-on
+            <strong>Robot Safety Evidence Lab</strong>. Participants will work
+            with concrete cases from home and care, social navigation, and
+            adaptive collaboration to investigate what could go wrong, who
+            could be affected, and — most importantly — how we would know.
+          </p>
+
+          <p>
+            Together, we will move from concerns to evidence: identifying what
+            should be measured, what data are truly necessary, what should
+            remain private, which safeguards restore human control, and what
+            uncertainty remains before a safety claim can be justified.
+          </p>
+
+        </div>
+
+        <div class="about-callout">
+          <strong>Not “Is this robot safe?”</strong><br>
+          but “What would we need to observe, measure, and demonstrate
+          before we could responsibly say that it is?”
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EVIDENCE LAB ═════════════════════════════ -->
+<section id="lab">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">The Robot Safety Evidence Lab</h2>
+    </div>
+
+    <div class="lab-grid">
+
+      <!-- LEFT -->
+      <div class="lab-aside">
+        <p class="lab-tagline">
+          From a safety <em>concern</em><br>
+          to an evidence <em>case</em>.
+        </p>
+
+        <p class="lab-small">
+          Working in small groups, participants will examine concrete HRI
+          safety cases using the <strong>Evidence Case Canvas</strong>.
+        </p>
+      </div>
+
+      <!-- RIGHT -->
+      <div>
+
+        <div class="lab-body">
+          <p>
+            The <strong>Robot Safety Evidence Lab</strong> asks a simple
+            question: what would we actually need to know before making a
+            psychological or social safety claim about a robot?
+          </p>
+
+          <p>
+            Teams will use an <strong>11-field Evidence Case Matrix</strong>
+            to connect a safety concern with robot behavior, human outcomes,
+            evidence, data requirements, safeguards, and uncertainty.
+          </p>
+        </div>
+
+        <!-- MATRIX -->
+        <div class="evidence-matrix">
+
+          <div class="matrix-item">
+            <span class="matrix-num">01</span>
+            <div>
+              <h3>People &amp; Context</h3>
+              <p>Who is involved, and where?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">02</span>
+            <div>
+              <h3>Safety Concern</h3>
+              <p>What could go wrong, for whom, and when?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">03</span>
+            <div>
+              <h3>Robot State</h3>
+              <p>What did the robot perceive, infer, or decide?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">04</span>
+            <div>
+              <h3>Behavior &amp; Uncertainty</h3>
+              <p>What did it actually do, and how certain was it?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">05</span>
+            <div>
+              <h3>Human Outcomes</h3>
+              <p>How did the interaction affect the person?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">06</span>
+            <div>
+              <h3>Evidence &amp; Measures</h3>
+              <p>What would support or challenge the claim?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">07</span>
+            <div>
+              <h3>Data &amp; Sensing</h3>
+              <p>What information do we actually need?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">08</span>
+            <div>
+              <h3>Privacy &amp; Agency</h3>
+              <p>What could collecting that evidence cost?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">09</span>
+            <div>
+              <h3>Test &amp; Comparator</h3>
+              <p>How could we test the claim?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">10</span>
+            <div>
+              <h3>Safeguards &amp; Recovery</h3>
+              <p>What happens when something goes wrong?</p>
+            </div>
+          </div>
+
+          <div class="matrix-item matrix-item-wide">
+            <span class="matrix-num">11</span>
+            <div>
+              <h3>Uncertainty &amp; Intervention</h3>
+              <p>What remains unknown — and who can intervene?</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- PROCESS -->
+        <div class="lab-callout">
+          <span class="lab-callout-label">The process</span>
+          <div class="lab-process">
+            <strong>Build</strong>
+            <span>→</span>
+            <strong>Challenge</strong>
+            <span>→</span>
+            <strong>Revise</strong>
+          </div>
+          <p>
+            Teams build an Evidence Case, exchange it with another group to
+            challenge assumptions and missing evidence, and revise it before
+            the final workshop synthesis.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══ EXPECTED OUTCOMES ════════════════════════ -->
+<section id="outcomes">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">Expected Outcomes</h2>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-aside">
+        <p class="about-tagline">
+          Not just answers.<br>
+          Better ways to <em>ask the question</em>.
+        </p>
+      </div>
+
+      <div>
+        <div class="about-body">
+
+          <p>
+            BESAFE 2027 is not designed to produce a universal definition of
+            when a robot is psychologically or socially safe. Instead, we aim
+            to develop a more systematic way of approaching these questions.
+          </p>
+
+          <p>
+            Participants will leave with a practical framework for breaking
+            down a safety concern: identifying who may be affected, what the
+            robot is doing, which human outcomes matter, what evidence is
+            needed, how that evidence could be collected, and what safeguards
+            or interventions may be possible.
+          </p>
+
+          <p>
+            At the same time, the workshop will <strong>stress-test the
+            Evidence Case Matrix itself</strong>. By applying it across
+            different HRI cases, we will identify missing categories,
+            unclear relationships, and aspects of psychological and social
+            safety that the matrix does not yet capture.
+          </p>
+
+          <p>
+            We are also interested in where the process breaks down:
+            safety concerns for which evidence is difficult to obtain,
+            meaningful measures are missing, safeguards create new trade-offs,
+            or no satisfactory solution is currently apparent.
+          </p>
+
+        </div>
+
+        <div class="outcomes-list">
+
+          <div class="outcome-item">
+            <span>01</span>
+            <div>
+              <strong>A systematic way to approach safety concerns</strong>
+              <p>From an initial concern to evidence, evaluation, and safeguards.</p>
+            </div>
+          </div>
+
+          <div class="outcome-item">
+            <span>02</span>
+            <div>
+              <strong>A tested Evidence Case Matrix</strong>
+              <p>Understanding what works, what is missing, and what needs refinement.</p>
+            </div>
+          </div>
+
+          <div class="outcome-item">
+            <span>03</span>
+            <div>
+              <strong>New categories and connections</strong>
+              <p>Insights that emerge when the matrix is applied across different HRI cases.</p>
+            </div>
+          </div>
+
+          <div class="outcome-item">
+            <span>04</span>
+            <div>
+              <strong>Open safety challenges</strong>
+              <p>Cases where evidence, measurement, safeguards, or solutions remain unresolved.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="about-callout">
+          <strong>The matrix is a starting point, not the answer.</strong><br>
+          The workshop will help us understand both how psychological and
+          social safety can be investigated systematically — and where our
+          current methods still fall short.
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ TOPICS ═══════════════════════════════════ -->
+<section id="topics">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">Key Topics</h2>
+    </div>
+
+    <div class="topics-list">
+
+      <div class="topic-row">
+        <span class="topic-num">01</span>
+        <div>
+          <h3 class="topic-title display">Psychological &amp; Social Safety</h3>
+          <p class="topic-desc">
+            Safety beyond physical harm: comfort, agency, consent, trust, and human experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <span class="topic-num">02</span>
+        <div>
+          <h3 class="topic-title display">Safety Evidence &amp; Evaluation</h3>
+          <p class="topic-desc">
+            What evidence, measures, and evaluations can support or challenge a robot safety claim?
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <span class="topic-num">03</span>
+        <div>
+          <h3 class="topic-title display">Sensing, Privacy &amp; Human Agency</h3>
+          <p class="topic-desc">
+            Balancing evidence needs with privacy, autonomy, oversight, and human control.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <span class="topic-num">04</span>
+        <div>
+          <h3 class="topic-title display">Home &amp; Care Robots</h3>
+          <p class="topic-desc">
+            Refusal, consent, reminders, information sharing, and user control.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <span class="topic-num">05</span>
+        <div>
+          <h3 class="topic-title display">Social Navigation</h3>
+          <p class="topic-desc">
+            Moving beyond collision avoidance toward access, comfort, and socially appropriate behavior.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <span class="topic-num">06</span>
+        <div>
+          <h3 class="topic-title display">Adaptive Collaboration</h3>
+          <p class="topic-desc">
+            Adaptation, personalization, transparency, expectations, and the ability to correct robot behavior.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row topic-row--more">
+        <span class="topic-num">+</span>
+        <div>
+          <h3 class="topic-title display">And more</h3>
+          <p class="topic-desc">
+            Related interdisciplinary perspectives and emerging HRI safety challenges are welcome.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ SUBMISSION ════════════════════════════════ -->
+<section id="submission">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">Call for Papers</h2>
+    </div>
+
+    <div class="submission-grid">
+
+      <div>
+        <p class="mono" style="color:var(--muted); margin-bottom:1.5rem;">
+          Important dates
+        </p>
+
+        <div class="dates-stack">
+          <div class="date-item">
+            <span class="date-event">Submission Deadline</span>
+            <span class="date-val">TBD</span>
+          </div>
+
+          <div class="date-item">
+            <span class="date-event">Notification</span>
+            <span class="date-val">TBD</span>
+          </div>
+
+          <div class="date-item">
+            <span class="date-event">Workshop</span>
+            <span class="date-val">HRI 2027</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+        <div class="submission-info">
+
+          <p>
+            <strong>What safety question does your research raise?</strong>
+          </p>
+
+          <p>
+            We invite papers that explore psychological and social safety in
+            human–robot interaction, particularly work that raises questions
+            about how safety claims can be supported, challenged, or evaluated
+            beyond physical collision avoidance.
+          </p>
+
+          <p>
+            Submissions may present empirical research, methods, case studies,
+            deployment experiences, work in progress, or position papers.
+            We especially welcome papers that bring a concrete
+            <strong>safety case, open question, or evidence challenge</strong>
+            that can inform the Robot Safety Evidence Lab.
+          </p>
+
+          <p>
+            During the workshop, selected cases and questions will provide
+            starting points for examining what could go wrong, who could be
+            affected, what evidence would be needed, what should be measured,
+            and what information should remain private.
+          </p>
+
+          <p>
+            Contributions do not need to present a finished solution.
+            Unresolved cases, conflicting evidence, and open methodological
+            questions are particularly valuable for the workshop.
+          </p>
+
+        </div>
+
+        <div class="format-box">
+          <h4>We welcome papers on</h4>
+          <ul>
+            <li>Psychological and social safety in HRI</li>
+            <li>Safety cases and evidence for HRI</li>
+            <li>Human agency, autonomy, consent, and control</li>
+            <li>Social navigation and interaction</li>
+            <li>Adaptive and personalized robot behavior</li>
+            <li>Trust, transparency, and explainability</li>
+            <li>Privacy-aware sensing and data collection</li>
+            <li>Methods and measures for evaluating safety</li>
+            <li>Open challenges and work in progress</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:1.5rem;">
+          <span class="btn btn-primary" style="opacity:0.55; cursor:default;">
+            Submission Details Coming Soon
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ══ PROGRAM ══════════════════════════════════ -->
+<section id="program">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">Workshop Program</h2>
+    </div>
+
+    <div class="schedule">
+
+      <!-- Welcome -->
+      <div class="schedule-item">
+        <div class="sched-time">15 min</div>
+        <div>
+          <div class="sched-label">Opening</div>
+          <div class="sched-title">Welcome, Safety Questions &amp; Group Formation</div>
+          <div class="sched-desc">
+            Introduction to BESAFE, the Robot Safety Evidence Lab, and formation of working groups.
+          </div>
+        </div>
+      </div>
+
+      <!-- Worked Case -->
+      <div class="schedule-item">
+        <div class="sched-time">15 min</div>
+        <div>
+          <div class="sched-label">Worked Case</div>
+          <div class="sched-title">From Safety Concern to Evidence Case</div>
+          <div class="sched-desc">
+            Organizer-led worked example or brief invited perspective.
+          </div>
+        </div>
+      </div>
+
+      <!-- Contributions -->
+      <div class="schedule-item">
+        <div class="sched-time">25 min</div>
+        <div>
+          <div class="sched-label">Participant Contributions</div>
+          <div class="sched-title">Lightning Contributions</div>
+          <div class="sched-desc">
+            Selected participants introduce safety cases, research questions, methods, and open challenges.
+          </div>
+        </div>
+      </div>
+
+      <!-- Break -->
+      <div class="schedule-item">
+        <div class="sched-time">30 min</div>
+        <div>
+          <div class="sched-label">Break</div>
+          <div class="sched-title">Coffee, Posters &amp; Demos</div>
+          <div class="sched-desc">
+            Poster discussions and optional prerecorded demonstrations.
+          </div>
+        </div>
+      </div>
+
+      <!-- Evidence Lab -->
+      <div class="schedule-item highlight">
+        <div class="sched-time">80 min</div>
+        <div>
+          <div class="sched-label">Robot Safety Evidence Lab</div>
+          <div class="sched-title">Build an Evidence Case</div>
+          <div class="sched-desc">
+            Teams examine a concrete HRI safety case, identify available and
+            missing evidence, consider alternative explanations, and develop
+            measures, safeguards, and a test plan using the Evidence Case Canvas.
+          </div>
+        </div>
+      </div>
+
+      <!-- Cross-team Review -->
+      <div class="schedule-item highlight">
+        <div class="sched-time">45 min</div>
+        <div>
+          <div class="sched-label">Challenge &amp; Revise</div>
+          <div class="sched-title">Cross-Team Review</div>
+          <div class="sched-desc">
+            Teams exchange evidence cases and challenge assumptions, missing
+            evidence, unnecessary sensing, privacy costs, and proposed safeguards
+            before revising their cases.
+          </div>
+        </div>
+      </div>
+
+      <!-- Plenary -->
+      <div class="schedule-item">
+        <div class="sched-time">30 min</div>
+        <div>
+          <div class="sched-label">Plenary</div>
+          <div class="sched-title">Compare, Synthesize &amp; Look Forward</div>
+          <div class="sched-desc">
+            Compare evidence requirements across cases, identify shared research
+            and reporting priorities, and define directions for follow-up.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- ══ ORGANISERS ═══════════════════════════════ -->
+<section id="organisers">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num"></span>
+      <h2 class="section-title display">Organisers</h2>
+    </div>
+
+    <div class="org-grid">
+
+      <!-- Chorong Park -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="chorong.png" alt="Chorong Park">
+        </div>
+        <div class="org-role">Assistant Professor</div>
+        <h3 class="org-name display">Chorong Park</h3>
+        <p class="org-affil">University of Houston, USA</p>
+        <p class="org-bio">
+          Assistant Professor in Human Media Interaction. Research focuses on developing robots to enhance health and quality of life, including social-physical interaction, personalization, and long-term engagement.
+        </p>
+        <a href="https://elaralab.org/" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Ayesha Jena -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="ayesha.jpg" alt="Ayesha Jena">
+        </div>
+        <div class="org-role">PhD Researcher</div>
+        <h3 class="org-name display">Ayesha Jena</h3>
+        <p class="org-affil">Lund University, Sweden</p>
+        <p class="org-bio">
+          PhD student in Robotics and Semantic Systems at Lund University. Focuses on smooth, natural, and effective collaboration between humans and robots through mixed-initiative interaction and intention recognition.
+        </p>
+        <a href="https://portal.research.lu.se/en/persons/ayesha-jena/" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Emilia Pietras -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="emilia.jpg" alt="Emilia Pietras">
+        </div>
+        <div class="org-role">PhD Researcher</div>
+        <h3 class="org-name display">Emilia Pietras</h3>
+        <p class="org-affil">University of Southern Denmark, DK</p>
+        <p class="org-bio">
+          PhD student at SDU focusing on human-centered collaborative robotics, specifically human-to-robot trust, transparency, and adaptive robot behavior.
+        </p>
+        <a href="https://portal.findresearcher.sdu.dk/en/persons/empi/" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Subham Agrawal -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="subham2.jpeg" alt="Subham Agrawal">
+        </div>
+        <div class="org-role">PhD Researcher</div>
+        <h3 class="org-name display">Subham Agrawal</h3>
+        <p class="org-affil">University of Bonn, Germany</p>
+        <p class="org-bio">
+          PhD student in the Humanoid Robots Lab at Bonn. Research focuses on safe and natural navigation behavior of robots in human-centric environments.
+        </p>
+        <a href="https://www.linkedin.com/in/subham-agrawal-11147211b/" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Anna-Lisa Vollmer -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="anna.jpeg" alt="Anna-Lisa Vollmer">
+        </div>
+        <div class="org-role">Assistant Professor</div>
+        <h3 class="org-name display">Anna-Lisa Vollmer</h3>
+        <p class="org-affil">Bielefeld University, Germany</p>
+        <p class="org-bio">
+          Professor of Interactive Robotics in Medicine and Care. Research: co-constructive learning, explainability, and mental-model mismatch. Proposed role: non-expert learning cases, canvas exercise, and explanation/recovery review.
+        </p>
+        <a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=5559424&lang=EN" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Sebastian Schneider -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="sebastian.jpg" alt="Sebastian Schneider">
+        </div>
+        <div class="org-role">Assistant Professor</div>
+        <h3 class="org-name display">Sebastian Schneider</h3>
+        <p class="org-affil">University of Twente, NL</p>
+        <p class="org-bio">
+          Assistant Professor in Human Media Interaction. Research focuses on developing robots to enhance health and quality of life, including social-physical interaction, personalization, and long-term engagement.
+        </p>
+        <a href="https://people.utwente.nl/s.schneider" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+      <!-- Kristina Nikolovska -->
+      <div class="org-card">
+        <div class="org-avatar-photo">
+          <img src="kristna.JPG" alt="Kristina Nikolovska">
+        </div>
+        <div class="org-role">Postdoctoral Researcher</div>
+        <h3 class="org-name display">Kristina Nikolovska</h3>
+        <p class="org-affil">LMU Munich, Germany</p>
+        <p class="org-bio">
+          Postdoctoral HRI researcher studying socially aware navigation, adaptive behavior, and human responses to robots. Proposed role: navigation cases, perceived safety, agency, and robot/human evidence.
+        </p>
+        <a href="https://kristina-nikolovska.netlify.app/" target="_blank" class="org-contact">Personal Page</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ══ FOOTER ════════════════════════════════════ -->
+<footer>
+  <div>
+    <div class="footer-brand">BE<span>SAFE</span> 2027</div>
+
+    <p class="footer-desc">
+      From Concerns to Evidence Cases for Psychological and Social Safety
+      in Adaptive Robots.
+    </p>
+
+    <p class="footer-meta">
+      HRI 2027 · Half-day Workshop
+    </p>
+  </div>
+
+  <div>
+    <p class="footer-nav-title">Navigate</p>
+
+    <nav class="footer-nav">
+      <a href="#about">About the Workshop</a>
+      <a href="#lab">The Evidence Lab</a>
+      <a href="#outcomes">Expected Outcomes</a>
+      <a href="#topics">Key Topics</a>
+      <a href="#submission">Call for Papers</a>
+      <a href="#program">Workshop Program</a>
+      <a href="#organisers">Organisers</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2027 BESAFE Workshop Organisers. All rights reserved.</span>
+
+    <a href="https://humanrobotinteraction.org/2027/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="footer-roman-link">
+      <span class="mono">HRI 2027</span>
+    </a>
+  </div>
+</footer>
+
+<!-- Mechanics -->
+<script src="besafe-script.js"></script>
+</body>
+</html>
